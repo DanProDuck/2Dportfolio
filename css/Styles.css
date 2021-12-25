@@ -46,7 +46,7 @@ div.b {
 }
 
 div.inline-stack {
-    width: 200px;
+    width: 180px;
     height: auto;
     padding-top: 1vmax;
     display: inline-block;
@@ -57,14 +57,16 @@ div.inline-stack {
 div.inline-portf {
     width: 217.5px;
     height: auto;
-    padding-top: 1vmax;
+    padding-top: 100vmax;
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-div.parent {
-    padding-left: 50px;
+.parent {
+    height: 30%;
+    margin-left: 20px;
+    justify-content: center;
 }
 
 img.top-pad {
