@@ -5,26 +5,11 @@
    url("css/fonts/Harabara.svg#filename") format("svg");*/
 }
 
-@media only screen and (max-width: 480px) {
-    html,
-    body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-}
-
 body {
-    margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    height: 100vh;
     perspective: 1px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background-image: linear-gradient(to right, rgb(89, 10, 153), rgb(29, 1, 1));
+    background-image: linear-gradient(to right, rgb(89, 10, 153), rgb(56, 0, 0));
 }
 
 p.a {
@@ -45,6 +30,7 @@ div.a {
     box-shadow: 16px 14px 20px #0000008c;
     border-radius: 10px;
 }
+
 div.aa {
     height: 100px;
     width: 410px;
@@ -61,11 +47,26 @@ div.b {
 
 div.inlineb {
     width: 217.5px;
-    height: 370px;
+    height: auto;
+    padding-top: 1vmax;
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+}
+
+div.inlineba {
+    width: 217.5px;
+    height: auto;
+    padding-top: 100vmax;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parent {
+    height: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 img.top-pad {
@@ -82,8 +83,27 @@ div.shadow-box {
     margin: auto;
 }
 
-.content-no-background {
-    margin: auto;
-    padding: 50px;
-    width: 50%;
+div.rel-lines1 {
+    position: relative;
+    bottom: 50px;
+}
+
+div.rel-lines2 {
+    position: relative;
+    bottom: 87px;
+}
+
+div.rel-lines3 {
+    position: relative;
+    bottom: 130px;
+}
+
+div.rel-lines4 {
+    position: relative;
+    bottom: 50px;
+}
+
+div.rel-lines5 {
+    position: relative;
+    bottom: 50px;
 }
