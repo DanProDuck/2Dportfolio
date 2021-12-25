@@ -57,7 +57,7 @@ div.inline-stack {
 div.inline-portf {
     width: 217.5px;
     height: auto;
-    padding-top: 100vmax;
+    padding-top: 1vmax;
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
