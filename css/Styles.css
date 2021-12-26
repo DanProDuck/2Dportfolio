@@ -14,19 +14,19 @@ body {
 
 p.a {
     text-align: center;
-    /*font-size: 50px;*/
-    font-family: Karmatic Arcade Regular
+    font-size: 29px;
+    font-family: Karmatic Arcade Regular;
 }
 
 p.b {
     text-align: left;
-    font-size: 20px;
+    font-size: 23px;
     font-family: Verdana, sans-serif;
 }
 
 div.a {
-    height: 80px;
-    width: 410px;
+    height: 100px;
+    width: 440px;
     box-shadow: 16px 14px 20px #0000008c;
     border-radius: 10px;
 }
@@ -39,23 +39,24 @@ div.aa {
 }
 
 div.b {
-    height: 200px;
+    height: 250px;
     width: 400px;
     box-shadow: 16px 14px 20px #0000008c;
     border-radius: 10px;
 }
 
 div.inline-stack {
-    width: 180px;
+    width: 250px;
     height: auto;
     padding-top: 1vmax;
     display: inline-block;
+    margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 div.inline-portf {
-    width: 217.5px;
+    width: 240px;
     height: auto;
     padding-top: 1vmax;
     display: inline-block;
@@ -85,12 +86,12 @@ div.shadow-box {
 
 div.rel-lines1 {
     position: relative;
-    bottom: 50px;
+    bottom: 126px;
 }
 
 div.rel-lines2 {
     position: relative;
-    bottom: 87px;
+    bottom: 100px;
 }
 
 div.rel-lines3 {
